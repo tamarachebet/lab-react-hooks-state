@@ -41,7 +41,6 @@ const App = () => {
     setCategory(e.target.value)
   }
 
-  // Handle "NonExistent" category for testing
   const filteredProducts = category === 'all' 
     ? products 
     : category === 'NonExistent'
