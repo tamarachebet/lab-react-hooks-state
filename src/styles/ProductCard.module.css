@@ -1,5 +1,11 @@
-/* TODO (optional): Style the product card container */
+.card {
+  transition: transform 0.2s;
+}
 
-/* TODO (optional): Add special styling for out-of-stock products */
+.card:hover {
+  transform: translateY(-2px);
+}
 
-/* TODO (optional): Style the add/remove button */
+.outOfStock {
+  opacity: 0.6;
+}
